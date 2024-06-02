@@ -12,16 +12,18 @@
   </head>
   <body>
     <header class="header">
-      <a href="#" class="logo"><img src="images/mylogoo-removebg-preview.png" alt="" /></a>
+      <a href="#" class="logo"
+        ><img src="images/mylogoo-removebg-preview.png" alt=""
+      /></a>
       <nav class="navbar">
-        <a href="#" class="ac">Home</a>
-        <a href="">portfolio</a>
-        <a href="">About</a>
+        <a href="#home" class="ac">Home</a>
+        <a href="#about">About</a>
+        <a href="#proj">Project</a>
         <a href="">Contact</a>
       </nav>
     </header>
     <section class="home">
-      <div class="home-content">
+      <div class="home-content" id="home">
         <h3>Hey there! This is me,</h3>
         <h1>Shogofa Developer</h1>
         <h3 id="dec">
@@ -43,9 +45,12 @@
       <a href="tel:+93731905950"><i class="bx bxl-whatsapp"></i></a>
       <a href="#"><i class="bx bxl-telegram"></i></a>
     </div>
-    <secton class="about">
+    <secton class="about" id="about">
       <div class="a-img">
-        <img src="images/s.jpg" alt="A girl that point to the input range" />
+        <img
+          src="images/second img..jpg"
+          alt="A girl that point to the input range"
+        />
       </div>
       <div class="about-second">
         <h2>About Me</h2>
@@ -78,8 +83,44 @@
           max="1.2"
         />
         <label for="css">CSS</label>
-        <input type="range" class="accent" name="CSS" id="css" min="0" max="3" />
+        <input
+          type="range"
+          class="accent"
+          name="CSS"
+          id="css"
+          min="0"
+          max="3"
+        />
       </div>
     </secton>
+    <section class="projects" id="proj">
+      <h2 id="hero-h2">Projects</h2>
+      <ul>
+        <li>
+          <div>
+            <img src="images/Project/t.png" alt="My Tribute page about jennie bp" />
+            <h2>Jennie Tribute Page</h2>
+            <a href="https://shogof.github.io/Tribute-Page/">Live</a>
+            <a href="https://github.com/shogof/Tribute-Page">Source</a>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="images/Project/documintatin page.jpg" alt="My Tribute page about jennie bp" />
+            <h2>Documintation Page</h2>
+            <a href="https://shogof.github.io/Technical-Documentation/">Live</a>
+            <a href="https://github.com/shogof/Technical-Documentation">Source</a>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="images/Project/landing page.png" alt="My Tribute page about jennie bp" />
+            <h2>Landing Page</h2>
+            <a href="https://shogof.github.io/Landing-page-project/">Live</a>
+            <a href="https://github.com/shogof/Landing-page-project">Source</a>
+          </div>
+        </li>
+      </ul>
+    </section>
   </body>
 </html>
