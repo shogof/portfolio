@@ -28,7 +28,7 @@ body {
 .logo img {
   text-decoration: none;
   width: 200px;
-  height: 100px;
+  height: 80px;
   cursor: default;
 }
 
@@ -146,7 +146,7 @@ body {
   color: black;
   text-decoration: none;
   letter-spacing: 1px;
-  transition: .6s;
+  transition: 0.6s;
 }
 
 .home-content .btn:hover {
@@ -168,6 +168,10 @@ body {
   width: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+.about-second p {
+  text-align: justify;
 }
 
 label {
@@ -202,31 +206,43 @@ label {
   align-items: center;
   padding: 15px;
   list-style-type: none;
-  margin: 5px auto;
+  margin: 0 auto;
 }
 
-.projects ul li {
+ul li {
   margin: 5px 0;
   background: transparent;
   text-align: center;
-  width: 30%;
-  box-shadow: 2px 2px 15px #f65d6b;
+  width: 25%;
+  border-radius: 5px;
   overflow: hidden;
-  height: 420px;
+  height: 300px;
   transition: 1s;
+  box-shadow: #fff;
+}
+
+ul li #d1 {
+  box-shadow: 2px 2px 95px #f8f5f9;
+}
+
+ul li #d2 {
+  box-shadow: 2px 2px 95px #ac42fe;
+}
+
+ul li #d3 {
+  box-shadow: 2px 2px 95px #fe8442;
 }
 
 .projects ul li:hover {
-  width: 31%;
-  height: 450px;
+  width: 28%;
+  height: 470px;
 }
 
 .projects ul li img {
-  width: 80%;
-  height: 280px;
-  opacity: 0.8;
-  border-radius: 50%;
-  box-shadow: 2px 2px 20px #f65d6b;
+  width: 100%;
+  height: 285px;
+  opacity: 1;
+  box-shadow: 2px 2px 20px #fff;
   transition: 1s;
 }
 
@@ -243,17 +259,16 @@ label {
   background: transparent;
   border-radius: 10%;
   font-size: 20px;
-  color: #f65d6b;
+  color: #ac42fe;
   text-decoration: none;
   margin: 20px 15px 0 0;
-  transition: 0.5s ease;
   padding: 1px 40px;
-  box-shadow: 2px 2px 10px #f65d6b;
+  box-shadow: 2px 2px 10px #fefefe;
   transition: 1s;
 }
 
 .projects ul li a:hover {
-  background-color: #f65d6b;
+  background-color: #ac42fe;
   color: black;
   box-shadow: 0 0 5px #f65d6b;
   font-weight: 600;
@@ -262,14 +277,104 @@ label {
 
 .projects h2 {
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   margin: 5px 0;
 }
 
 .projects #hero-h2 {
-  text-align: center;
+  margin: -3px 0;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 130%;
+  background-image: linear-gradient(
+    -225deg,
+    #c494ff 10%,
+    #28f4f8 59%,
+    #f2a456 67%,
+    #f65d6b 100%
+  );
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 3s linear infinite;
   font-size: 50px;
-  margin-top: 70px;
+  margin: 70px auto 0 auto;
+}
+
+.contact {
+  width: 100%;
+  height: auto;
+  display: flex;
+  background: linear-gradient(
+    176deg,
+    rgba(246, 93, 107, 1) 10%,
+    rgba(0, 0, 0, 1) 80%
+  );
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 110px;
+}
+
+.contact h2 {
+  margin: 20px auto 5px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.contact p {
+  width: 50%;
+  margin: 10px auto 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  height: auto;
+}
+
+form input {
+  width: 60%;
+  height: 60px;
+  margin: 15px;
+  border-radius: 10px;
+  padding: 5px 30px;
+}
+
+form textarea {
+  width: 60%;
+  margin: 15px;
+  border-radius: 10px;
+  padding: 5px 30px;
+}
+
+form button {
+  width: 25%;
+  height: 45px;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #f65d6b;
+  margin: 20px 15px;
+  padding: 1px 40px;
+  box-shadow: 2px 2px 10px #f65d6b;
+  transition: 1s;
+  border: none;
+}
+
+form button:hover {
+  background-color: #f65d6b;
+  color: black;
+  box-shadow: 0 0 5px #f65d6b;
+  font-weight: 600;
+  border-radius: 60px;
 }
 
 @keyframes textclip {
