@@ -127,7 +127,12 @@ body {
   font-size: 56px;
   line-height: 130%;
   background-image:
-  linear-gradient(-225deg,#ee5ff3 0%,#28f4f8 29%,#f2a456 67%,#ed5504 100%
+  linear-gradient(
+    -225deg,
+    #ee5ff3 0%,
+    #28f4f8 29%,
+    #f2a456 67%,
+    #ed5504 100%
   );
   background-size: 200% auto;
   color: #fff;
