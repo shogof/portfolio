@@ -126,7 +126,8 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 130%;
-  background-image: linear-gradient(
+  background-image:
+  linear-gradient(
     -225deg,
     #ee5ff3 0%,
     #28f4f8 29%,
@@ -339,7 +340,8 @@ ul li #d3 a:hover {
 .projects #hero-h2 {
   font-weight: 700;
   line-height: 130%;
-  background-image: linear-gradient(
+  background-image:
+  linear-gradient(
     -225deg,
     #c494ff 10%,
     #28f4f8 59%,
