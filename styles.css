@@ -49,6 +49,22 @@ body {
   animation-delay: calc(0.2s * var(--i));
 }
 
+.projects ul li a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 35px;
+  background: transparent;
+  border-radius: 10%;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 20px 15px 10px 0;
+  padding: 1px 40px;
+  box-shadow: 2px 2px 10px #fefefe;
+  transition: 1s;
+}
+
 .navbar a:hover,
 .navbar .ac {
   color: #f65d6b;
@@ -254,6 +270,11 @@ ul li {
   box-shadow: #fff;
 }
 
+.projects ul li a:hover {
+  font-weight: 600;
+  border-radius: 60px;
+}
+
 ul li #d1 {
   box-shadow: 2px 2px 95px #f8f5f9;
 }
@@ -262,8 +283,12 @@ ul li #d1 a {
   color: #fff;
 }
 
+ul li #d3 {
+  box-shadow: 2px 2px 95px #fe8442;
+}
+
 ul li #d1 a:hover {
-  color: #000000;
+  color: #000;
   background-color: white;
 }
 
@@ -278,10 +303,6 @@ ul li #d2 a {
 ul li #d2 a:hover {
   color: #000000;
   background-color: #b357f9;
-}
-
-ul li #d3 {
-  box-shadow: 2px 2px 95px #fe8442;
 }
 
 ul li #d3 a {
@@ -310,27 +331,6 @@ ul li #d3 a:hover {
   border-radius: 0;
 }
 
-.projects ul li a {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 30%;
-  height: 35px;
-  background: transparent;
-  border-radius: 10%;
-  font-size: 20px;
-  text-decoration: none;
-  margin: 20px 15px 10px 0;
-  padding: 1px 40px;
-  box-shadow: 2px 2px 10px #fefefe;
-  transition: 1s;
-}
-
-.projects ul li a:hover {
-  font-weight: 600;
-  border-radius: 60px;
-}
-
 .projects h2 {
   text-align: center;
   font-size: 25px;
@@ -338,9 +338,7 @@ ul li #d3 a:hover {
 }
 
 .projects #hero-h2 {
-  margin: -3px 0;
   font-weight: 700;
-  font-size: 56px;
   line-height: 130%;
   background-image: linear-gradient(
     -225deg,
@@ -508,9 +506,11 @@ form button:hover {
   0% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(-7px);
   }
+
   100% {
     transform: translateY(0);
   }
