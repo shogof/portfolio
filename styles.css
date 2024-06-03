@@ -36,6 +36,22 @@ body {
   animation-delay: 0, 4s;
 }
 
+.social-media a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid #f65d6b;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #f65d6b;
+  text-decoration: none;
+  margin: 1px 15px 0 0;
+  transition: 0.5s ease;
+}
+
 .navbar a {
   display: inline-block;
   font-size: 18px;
@@ -122,11 +138,10 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: textclip 3s linear infinite;
   display: inline-block;
   opacity: 0;
-  animation: SlideR 1s ease forwards;
-  animation-delay: 1s;
+  animation: SlideR 1s ease forwards, textclip 3s linear infinite;
+  animation-delay: 1s, 0;
 }
 
 .home-content p {
@@ -152,22 +167,6 @@ body {
 
 .social-media {
   margin-left: 50px;
-}
-
-.social-media a {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  background: transparent;
-  border: 2px solid #f65d6b;
-  border-radius: 50%;
-  font-size: 20px;
-  color: #f65d6b;
-  text-decoration: none;
-  margin: 1px 15px 0 0;
-  transition: 0.5s ease;
 }
 
 .social-media a:hover {
@@ -283,8 +282,20 @@ ul li #d1 a {
   color: #fff;
 }
 
+ul li #d2 {
+  box-shadow: 2px 2px 95px #ac42fe;
+}
+
 ul li #d3 {
   box-shadow: 2px 2px 95px #fe8442;
+}
+
+ul li #d2 a {
+  color: #b357f9;
+}
+
+ul li #d3 a {
+  color: #f77a0d;
 }
 
 ul li #d1 a:hover {
@@ -292,25 +303,13 @@ ul li #d1 a:hover {
   background-color: white;
 }
 
-ul li #d2 {
-  box-shadow: 2px 2px 95px #ac42fe;
-}
-
-ul li #d2 a {
-  color: #b357f9;
-}
-
 ul li #d2 a:hover {
-  color: #000000;
+  color: #000;
   background-color: #b357f9;
 }
 
-ul li #d3 a {
-  color: #f77a0d;
-}
-
 ul li #d3 a:hover {
-  color: #000000;
+  color: #000;
   background-color: #f77a0d;
 }
 
