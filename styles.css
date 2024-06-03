@@ -127,13 +127,13 @@ body {
   font-size: 56px;
   line-height: 130%;
   background-image:
-  linear-gradient(
-    -225deg,
-    #ee5ff3 0%,
+    linear-gradient(
+      -225deg,
+      #ee5ff3 0%,
     #28f4f8 29%,
     #f2a456 67%,
     #ed5504 100%
-  );
+    );
   background-size: 200% auto;
   color: #fff;
   background-clip: text;
@@ -341,13 +341,13 @@ ul li #d3 a:hover {
   font-weight: 700;
   line-height: 130%;
   background-image:
-  linear-gradient(
-    -225deg,
+    linear-gradient(
+      -225deg,
     #c494ff 10%,
     #28f4f8 59%,
     #f2a456 67%,
     #f65d6b 100%
-  );
+    );
   background-size: 200% auto;
   color: #fff;
   background-clip: text;
@@ -368,7 +368,7 @@ ul li #d3 a:hover {
   display: flex;
   background:
     linear-gradient(
-        176deg,
+      176deg,
       rgba(246, 93, 107, 1) 10%,
       rgba(0, 0, 0, 1) 80%
     );
