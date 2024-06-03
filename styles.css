@@ -53,7 +53,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 130px 10% 0;
+  padding: 180px 10% 130px 10%;
+  box-shadow: 5px 10px 25px rgba(173, 142, 142, 0.5);
 }
 
 .home-content {
@@ -102,6 +103,7 @@ body {
 .h-img {
   max-width: 450px;
   margin: -20px;
+  margin-bottom: 10px;
 }
 
 .h-img img {
@@ -109,8 +111,7 @@ body {
 }
 
 .social-media {
-  float: right;
-  margin-right: 160px;
+  margin-left: 50px;
 }
 
 .social-media a {
@@ -125,7 +126,7 @@ body {
   font-size: 20px;
   color: #f65d6b;
   text-decoration: none;
-  margin: 20px 15px 0 0;
+  margin: 1px 15px 0 0;
   transition: 0.5s ease;
 }
 
@@ -161,7 +162,8 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 15px 30px;
+  padding: 110px 30px 70px 30px;
+  box-shadow: 5px 10px 25px rgba(173, 142, 142, 0.5);
 }
 
 .about-second {
@@ -196,6 +198,10 @@ label {
 
 #off {
   margin-top: 40px;
+}
+
+#proj {
+  height: 10px;
 }
 
 .projects ul {
@@ -303,6 +309,10 @@ ul li #d3 {
   margin: 70px auto 0 auto;
 }
 
+#contact {
+  height: 60px;
+}
+
 .contact {
   width: 100%;
   height: auto;
@@ -315,7 +325,7 @@ ul li #d3 {
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  margin-top: 110px;
+  margin-top: 20px;
 }
 
 .contact h2 {
