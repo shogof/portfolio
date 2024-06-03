@@ -366,7 +366,8 @@ ul li #d3 a:hover {
   width: 100%;
   height: auto;
   display: flex;
-  background: linear-gradient(
+  background:
+  linear-gradient(
     176deg,
     rgba(246, 93, 107, 1) 10%,
     rgba(0, 0, 0, 1) 80%
