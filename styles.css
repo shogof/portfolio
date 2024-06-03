@@ -367,11 +367,11 @@ ul li #d3 a:hover {
   height: auto;
   display: flex;
   background:
-  linear-gradient(
-    176deg,
-rgba(246, 93, 107, 1) 10%,
-rgba(0, 0, 0, 1) 80%
-  );
+    linear-gradient(
+        176deg,
+      rgba(246, 93, 107, 1) 10%,
+      rgba(0, 0, 0, 1) 80%
+    );
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
