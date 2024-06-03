@@ -32,7 +32,7 @@ body {
   height: 80px;
   cursor: default;
   opacity: 0;
-  animation: SlideR 1s ease forwards, updown 3s ease-in-out infinite ;
+  animation: SlideR 1s ease forwards, updown 3s ease-in-out infinite;
   animation-delay: 0, 4s;
 }
 
@@ -46,7 +46,7 @@ body {
   transition: color 0.3s;
   opacity: 0;
   animation: SlideT 1s ease forwards;
-  animation-delay: calc(.2s * var(--i));
+  animation-delay: calc(0.2s * var(--i));
 }
 
 .navbar a:hover,
@@ -75,14 +75,14 @@ body {
   transition: color 0.3s;
   opacity: 0;
   animation: SlideB 1s ease forwards;
-  animation-delay: .7s;
+  animation-delay: 0.7s;
 }
 
 .home-content #dec {
   margin-bottom: 30px;
   opacity: 0;
   animation: SlideT 1s ease forwards;
-  animation-delay: .7s;
+  animation-delay: 0.7s;
 }
 
 .home-content h3 span {
@@ -421,7 +421,7 @@ form button {
   height: 45px;
   background-color: #fff;
   border-radius: 10px;
-  font-size: 20px;
+  font-size: 70%;
   color: #f65d6b;
   margin: 20px 15px;
   padding: 1px 40px;
@@ -516,3 +516,74 @@ form button:hover {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 0 20px;
+  }
+
+  .logo img {
+    width: 150px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar a {
+    margin: 10px 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .home-content {
+    padding: 100px 5% 80px 5%;
+  }
+
+  .home-content h1 {
+    font-size: 40px;
+  }
+
+  .home-content p {
+    font-size: 14px;
+  }
+
+  .h-img {
+    max-width: 300px;
+  }
+
+  .social-media {
+    margin-left: 20px;
+  }
+
+  .social-media a {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    margin: 0 10px;
+  }
+
+  .contact h2 {
+    font-size: 30px;
+  }
+
+  .contact p {
+    width: 80%;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  form {
+    width: 80%;
+  }
+
+  form input,
+  form textarea {
+    width: 100%;
+  }
+
+  form button {
+    width: 100%;
+    font-size: 16px;
+  }
+}
