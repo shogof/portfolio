@@ -106,11 +106,10 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: textclip 3s linear infinite;
   display: inline-block;
   opacity: 0;
-  animation: SlideR 1s ease forwards;
-  animation-delay: 1s;
+  animation: textclip 3s linear infinite, SlideR 1s ease forwards;
+  animation-delay: 0, 1s;
 }
 
 .home-content p {
@@ -132,6 +131,42 @@ body {
 
 .h-img img {
   max-width: 370px;
+}
+
+.projects #hero-h2 {
+  margin: -3px 0;
+  font-weight: 700;
+  line-height: 130%;
+  background-image: linear-gradient(
+    -225deg,
+    #c494ff 10%,
+    #28f4f8 59%,
+    #f2a456 67%,
+    #f65d6b 100%
+  );
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 3s linear infinite;
+  font-size: 50px;
+  margin: 70px auto 0 auto;
+}
+
+.contact {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+    176deg,
+    rgba(246, 93, 107, 1) 10%,
+    rgba(0, 0, 0, 1) 80%
+  );
+  margin-top: 20px;
 }
 
 .social-media {
@@ -156,158 +191,8 @@ body {
 
 .social-media a:hover {
   background-color: #f65d6b;
-  color: black;
+  color: #000;
   box-shadow: 0 0 5px #f65d6b;
-}
-
-.home-content .btn {
-  display: inline-flex;
-  padding: 12px 28px;
-  background-color: #f65d6b;
-  border-radius: 40px;
-  box-shadow: 0 0 5px #f65d6b;
-  font-size: 16px;
-  font-weight: 600;
-  color: black;
-  text-decoration: none;
-  letter-spacing: 1px;
-  transition: 0.6s;
-  opacity: 0;
-  animation: SlideT 1s ease forwards;
-  animation-delay: 1.2s;
-}
-
-.home-content .btn:hover {
-  background-color: black;
-  color: #f65d6b;
-  box-shadow: 0 0 15px #f65d6b;
-  font-weight: 900;
-}
-
-.about {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 110px 30px 70px 30px;
-  box-shadow: 5px 10px 25px rgba(173, 142, 142, 0.5);
-}
-
-.about-second {
-  width: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-.about-second p {
-  text-align: justify;
-}
-
-label {
-  margin: 15px 0 0 0;
-}
-
-.slider {
-  appearance: none;
-}
-
-.accent {
-  accent-color: #f65d6b;
-  margin: 10px auto;
-  width: 100%;
-  height: 10px;
-  transition: opacity 0.2s;
-}
-
-.accent:hover {
-  accent-color: #f85966;
-}
-
-#off {
-  margin-top: 40px;
-}
-
-#proj {
-  height: 10px;
-}
-
-.projects ul {
-  width: 100%;
-  height: 500px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 15px;
-  list-style-type: none;
-  margin: 0 auto;
-}
-
-ul li {
-  margin: 5px 0;
-  background: transparent;
-  text-align: center;
-  width: 25%;
-  border-radius: 5px;
-  overflow: hidden;
-  height: 300px;
-  transition: 1s;
-  box-shadow: #fff;
-}
-
-ul li #d1 {
-  box-shadow: 2px 2px 95px #f8f5f9;
-}
-
-ul li #d1 a {
-  color: #fff;
-}
-
-ul li #d1 a:hover {
-  color: #000000;
-  background-color: white;
-}
-
-ul li #d2 {
-  box-shadow: 2px 2px 95px #ac42fe;
-}
-
-ul li #d2 a {
-  color: #b357f9;
-}
-
-ul li #d2 a:hover {
-  color: #000000;
-  background-color: #b357f9;
-}
-
-ul li #d3 {
-  box-shadow: 2px 2px 95px #fe8442;
-}
-
-ul li #d3 a {
-  color: #f77a0d;
-}
-
-ul li #d3 a:hover {
-  color: #000000;
-  background-color: #f77a0d;
-}
-
-.projects ul li:hover {
-  width: 28%;
-  height: 470px;
-}
-
-.projects ul li img {
-  width: 100%;
-  height: 285px;
-  opacity: 1;
-  box-shadow: 2px 2px 20px #fff;
-  transition: 1s;
-}
-
-.projects ul li img:hover {
-  border-radius: 0;
 }
 
 .projects ul li a {
@@ -329,34 +214,6 @@ ul li #d3 a:hover {
 .projects ul li a:hover {
   font-weight: 600;
   border-radius: 60px;
-}
-
-.projects h2 {
-  text-align: center;
-  font-size: 25px;
-  margin: 5px 0;
-}
-
-.projects #hero-h2 {
-  margin: -3px 0;
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 130%;
-  background-image: linear-gradient(
-    -225deg,
-    #c494ff 10%,
-    #28f4f8 59%,
-    #f2a456 67%,
-    #f65d6b 100%
-  );
-  background-size: 200% auto;
-  color: #fff;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: textclip 3s linear infinite;
-  font-size: 50px;
-  margin: 70px auto 0 auto;
 }
 
 #contact {
@@ -508,9 +365,11 @@ form button:hover {
   0% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(-7px);
   }
+
   100% {
     transform: translateY(0);
   }
