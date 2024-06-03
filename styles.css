@@ -49,6 +49,22 @@ body {
   animation-delay: calc(0.2s * var(--i));
 }
 
+.navbar a[data-order="1"] {
+  --i: 1;
+}
+
+.navbar a[data-order="2"] {
+  --i: 2;
+}
+
+.navbar a[data-order="3"] {
+  --i: 3;
+}
+
+.navbar a[data-order="4"] {
+  --i: 4;
+}
+
 .navbar a:hover,
 .navbar .ac {
   color: #f65d6b;
@@ -110,14 +126,6 @@ body {
   opacity: 0;
   animation: textclip 3s linear infinite, SlideR 1s ease forwards;
   animation-delay: 0, 1s;
-}
-
-.home-content p {
-  font-size: 16px;
-  margin-bottom: 30px;
-  opacity: 0;
-  animation: SlideL 1s ease forwards;
-  animation-delay: 1s;
 }
 
 .h-img {
