@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+:root {
+  --pink: #f65d6b;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -28,8 +32,8 @@ body {
 
 .logo img {
   text-decoration: none;
-  width: 200px;
-  height: 80px;
+  width: 12rem;
+  height: 5rem;
   cursor: default;
   opacity: 0;
   animation: SlideR 1s ease forwards, updown 3s ease-in-out infinite;
@@ -40,25 +44,25 @@ body {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
   background: transparent;
   border: 2px solid #f65d6b;
   border-radius: 50%;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #f65d6b;
   text-decoration: none;
-  margin: 1px 15px 0 0;
+  margin: 0.05rem 1rem 0 0;
   transition: 0.5s ease;
 }
 
 .navbar a {
   display: inline-block;
-  font-size: 18px;
+  font-size: 1.2rem;
   color: #fff;
   text-decoration: none;
   font-weight: 500;
-  margin-left: 35px;
+  margin-left: 2.2rem;
   transition: color 0.3s;
   opacity: 0;
   animation: SlideT 1s ease forwards;
@@ -70,14 +74,14 @@ body {
   justify-content: center;
   align-items: center;
   width: 30%;
-  height: 35px;
+  height: 2.2rem;
   background: transparent;
   border-radius: 10%;
-  font-size: 20px;
+  font-size: 1.2rem;
   text-decoration: none;
-  margin: 20px 15px 10px 0;
-  padding: 1px 40px;
-  box-shadow: 2px 2px 10px #fefefe;
+  margin: 1.2rem 1rem 0.6rem 0;
+  padding: 0.05rem 2.5rem;
+  box-shadow: 0.12rem 0.12rem 0.6rem #fefefe;
   transition: 1s;
 }
 
@@ -93,16 +97,16 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 180px 10% 130px 10%;
-  box-shadow: 5px 10px 25px rgba(173, 142, 142, 0.5);
+  padding: 12rem 10% 8rem 10%;
+  box-shadow: 0.4rem 0.6rem 1.5rem rgba(173, 142, 142, 0.5);
 }
 
 .home-content {
-  max-width: 600px;
+  max-width: 38rem;
 }
 
 .home-content h3 {
-  font-size: 28px;
+  font-size: 1.8rem;
   font-weight: 700;
   transition: color 0.3s;
   opacity: 0;
@@ -111,7 +115,7 @@ body {
 }
 
 .home-content #dec {
-  margin-bottom: 30px;
+  margin-bottom: 2rem;
   opacity: 0;
   animation: SlideT 1s ease forwards;
   animation-delay: 0.7s;
@@ -122,18 +126,17 @@ body {
 }
 
 .home-content h1 {
-  margin: -3px 0;
+  margin: -0.2rem 0;
   font-weight: 700;
-  font-size: 56px;
+  font-size: 3.2rem;
   line-height: 130%;
-  background-image:
-    linear-gradient(
-      -225deg,
-      #ee5ff3 0%,
-      #28f4f8 29%,
-      #f2a456 67%,
-      #ed5504 100%
-    );
+  background-image: linear-gradient(
+    -225deg,
+    #ee5ff3 0%,
+    #28f4f8 29%,
+    #f2a456 67%,
+    #ed5504 100%
+  );
   background-size: 200% auto;
   color: #fff;
   background-clip: text;
@@ -146,28 +149,28 @@ body {
 }
 
 .home-content p {
-  font-size: 16px;
-  margin-bottom: 30px;
+  font-size: 1rem;
+  margin-bottom: 2rem;
   opacity: 0;
   animation: SlideL 1s ease forwards;
   animation-delay: 1s;
 }
 
 .h-img {
-  max-width: 450px;
-  margin: -20px;
-  margin-bottom: 10px;
+  max-width: 28rem;
+  margin: -1.2rem;
+  margin-bottom: 0.6rem;
   opacity: 0;
   animation: Zoom 1s ease forwards;
   animation-delay: 1.2s;
 }
 
 .h-img img {
-  max-width: 370px;
+  max-width: 23.1rem;
 }
 
 .social-media {
-  margin-left: 50px;
+  margin-left: 3rem;
 }
 
 .social-media a:hover {
@@ -178,11 +181,11 @@ body {
 
 .home-content .btn {
   display: inline-flex;
-  padding: 12px 28px;
+  padding: 0.8rem 1.8rem;
   background-color: #f65d6b;
-  border-radius: 40px;
+  border-radius: 2.4rem;
   box-shadow: 0 0 5px #f65d6b;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   color: black;
   text-decoration: none;
@@ -220,7 +223,7 @@ body {
 }
 
 label {
-  margin: 15px 0 0 0;
+  margin: 1rem 0 0 0;
 }
 
 .slider {
@@ -229,9 +232,9 @@ label {
 
 .accent {
   accent-color: #f65d6b;
-  margin: 10px auto;
+  margin: 0.6rem auto;
   width: 100%;
-  height: 10px;
+  height: 0.6rem;
   transition: opacity 0.2s;
 }
 
@@ -240,43 +243,43 @@ label {
 }
 
 #off {
-  margin-top: 40px;
+  margin-top: 2.2rem;
 }
 
 #proj {
-  height: 10px;
+  height: 0.6rem;
 }
 
 .projects ul {
   width: 100%;
-  height: 500px;
+  height: 34rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 15px;
+  padding: 1rem;
   list-style-type: none;
   margin: 0 auto;
 }
 
 ul li {
-  margin: 5px 0;
+  margin: 0.3rem 0;
   background: transparent;
   text-align: center;
   width: 25%;
-  border-radius: 5px;
+  border-radius: 0.3rem;
   overflow: hidden;
-  height: 300px;
+  height: 19rem;
   transition: 1s;
   box-shadow: #fff;
 }
 
 .projects ul li a:hover {
   font-weight: 600;
-  border-radius: 60px;
+  border-radius: 4rem;
 }
 
 ul li #d1 {
-  box-shadow: 2px 2px 95px #f8f5f9;
+  box-shadow: 2px 2px 6rem #f8f5f9;
 }
 
 ul li #d1 a {
@@ -284,11 +287,11 @@ ul li #d1 a {
 }
 
 ul li #d2 {
-  box-shadow: 2px 2px 95px #ac42fe;
+  box-shadow: 2px 2px 6rem #ac42fe;
 }
 
 ul li #d3 {
-  box-shadow: 2px 2px 95px #fe8442;
+  box-shadow: 2px 2px 6rem #fe8442;
 }
 
 ul li #d2 a {
@@ -316,14 +319,14 @@ ul li #d3 a:hover {
 
 .projects ul li:hover {
   width: 28%;
-  height: 470px;
+  height: 32rem;
 }
 
 .projects ul li img {
   width: 100%;
-  height: 285px;
+  height: 19rem;
   opacity: 1;
-  box-shadow: 2px 2px 20px #fff;
+  box-shadow: 2px 2px 1.2rem #fff;
   transition: 1s;
 }
 
@@ -333,61 +336,59 @@ ul li #d3 a:hover {
 
 .projects h2 {
   text-align: center;
-  font-size: 25px;
-  margin: 5px 0;
+  font-size: 1.5rem;
+  margin: 0.3rem 0;
 }
 
 .projects #hero-h2 {
   font-weight: 700;
   line-height: 130%;
-  background-image:
-    linear-gradient(
-      -225deg,
-      #c494ff 10%,
-      #28f4f8 59%,
-      #f2a456 67%,
-      #f65d6b 100%
-    );
+  background-image: linear-gradient(
+    -225deg,
+    #c494ff 10%,
+    #28f4f8 59%,
+    #f2a456 67%,
+    #f65d6b 100%
+  );
   background-size: 200% auto;
   color: #fff;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 3s linear infinite;
-  font-size: 50px;
-  margin: 70px auto 0 auto;
+  font-size: 3rem;
+  margin: 4.2rem auto 0 auto;
 }
 
 #contact {
-  height: 60px;
+  height: 4rem;
 }
 
 .contact {
   width: 100%;
   height: auto;
   display: flex;
-  background:
-    linear-gradient(
-      176deg,
-      rgba(246, 93, 107, 1) 10%,
-      rgba(0, 0, 0, 1) 80%
-    );
+  background: linear-gradient(
+    176deg,
+    rgba(246, 93, 107, 1) 10%,
+    rgba(0, 0, 0, 1) 80%
+  );
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 1.2rem;
 }
 
 .contact h2 {
-  margin: 20px auto 5px;
-  font-size: 40px;
+  margin: 1.2rem auto 0.4rem;
+  font-size: 2.5rem;
   font-weight: 700;
 }
 
 .contact p {
   width: 50%;
-  margin: 10px auto 20px;
-  font-size: 20px;
+  margin: 0.6rem auto 1.3rem;
+  font-size: 1.2rem;
   text-align: center;
 }
 
@@ -398,33 +399,33 @@ form {
   align-items: center;
   width: 50%;
   height: auto;
-  font-size: 25px;
+  font-size: 1.9rem;
 }
 
 form input {
   width: 60%;
   height: 60px;
-  margin: 15px;
+  margin: 0.8rem;
   border-radius: 10px;
-  padding: 5px 30px;
+  padding: 1rem 1.9rem;
 }
 
 form textarea {
   width: 60%;
-  margin: 15px;
-  border-radius: 10px;
-  padding: 15px 30px 0;
+  margin: 1rem;
+  border-radius: 0.8rem;
+  padding: 1.5rem 1.8rem 0;
 }
 
 form button {
   width: 25%;
-  height: 45px;
+  height: 2.8rem;
   background-color: #fff;
-  border-radius: 10px;
+  border-radius: 0.7rem;
   font-size: 70%;
   color: #f65d6b;
-  margin: 20px 15px;
-  padding: 1px 40px;
+  margin: 1.2rem 1rem;
+  padding: 1px 2.6rem;
   box-shadow: 2px 2px 10px #f65d6b;
   transition: 1s;
   border: none;
@@ -435,7 +436,7 @@ form button:hover {
   color: black;
   box-shadow: 0 0 5px #f65d6b;
   font-weight: 600;
-  border-radius: 60px;
+  border-radius: 4rem;
 }
 
 @keyframes textclip {
@@ -518,23 +519,27 @@ form button:hover {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .header {
-    padding: 0 20px;
+    padding: 0 5%;
   }
 
   .logo img {
-    width: 150px;
+    width: 10rem;
+    margin-left: 38px;
+    height: 4rem;
   }
+
+
 
   .navbar {
-    flex-direction: column;
-    align-items: center;
+   display: none;
   }
 
-  .navbar a {
-    margin: 10px 0;
+  .home {
+    padding: 10rem 10% 6rm 10%;
   }
+
 }
 
 @media screen and (max-width: 600px) {
