@@ -132,6 +132,10 @@ Crafted with simplicity and practicality, this portfolio serves as a testament t
 }
 ```
 
+## Live Link
+
+[Live Demo](https://shogof.github.io/portfolio/)
+
 ## Demo 📸
 
 ![Project Gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3UxeGJ5NWR1MGxwNXdsejNodXcxbHNqcHhvM291ZzM2M3lzdG03aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WgwvFuNaUPcXjRJGuj/giphy.gif)
