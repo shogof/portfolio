@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" rel="noopener" class="logo"
+        ><img src="images/mylogoo-removebg-preview.png" alt=""
+      /></a>
+      <nav class="navbar">
+        <a rel="noopener" data-order="1" href="#hom" class="ac">Home</a>
+        <a rel="noopener" data-order="2" href="#about">About</a>
+        <a rel="noopener" data-order="3" href="#proj">Project</a>
+        <a rel="noopener" data-order="4" href="#contact">Contact</a>
+      </nav>
+      <div id="barger-menu">
+        <i class="bx bx-menu"></i>
+      </div>
+    </header>
+    <section class="home" id="hom">
+      <div class="home-content">
+        <h3>Hey there! This is me,</h3>
+        <h1>Shogofa Developer</h1>
+        <h3 id="dec">
+          Junior Web Developer | <span>Kick Start Startupistan Student</span>
+        </h3>
+        <p>
+          A junior web developer with a passion for crafting exceptional web
+          experiences.
+        </p>
+        <a href="#" class="btn" rel="noopener">Download CV</a>
+      </div>
+      <div class="h-img">
+        <img src="images/codeplus1.png" alt="" />
+      </div>
+    </section>
+    <secton class="about" id="about">
+      <div class="a-img">
+        <img
+          src="images/second img..jpg"
+          alt="A girl that point to the input range"
+        />
+        <div class="social-media">
+          <a
+            href="https://www.facebook.com/profile.php?id=61559852199772&mibextid=ZbWKwL"
+            rel="noopener"
+            target="_blank"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/shegofa-developer-aa362030b"
+            target="_blank"
+            rel="noopener"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="tel:+93731905950" rel="noopener" target="_blank"
+            ><i class="bx bxl-whatsapp"></i
+          ></a>
+          <a href="tel:+93731905950" rel="noopener" target="_blank"
+            ><i class="bx bxl-telegram"></i
+          ></a>
+        </div>
+      </div>
+      <div class="about-second">
+        <h2>About Me</h2>
+        <p>
+          Hello! I'm a diligent web development student, dedicating numerous
+          hours to refining my skills in remote development. From crafting sleek
+          landing pages to mastering various projects, I've immersed myself in a
+          wide array of tasks. My academic journey boasts a remarkable 99% score
+          both in school and college. This achievement underscores my commitment
+          to excellence and showcases my ability to thrive in competitive
+          environments. Join me as I continue to pursue excellence in the
+          dynamic world of web development!
+        </p>
+        <label for="office" id="off">Office Pakage</label>
+        <input
+          type="range"
+          class="accent"
+          name="Office Pakage"
+          id="office"
+          min="0"
+          max="1.1"
+        />
+        <label for="html">HTML</label>
+        <input
+          type="range"
+          class="accent"
+          name="HTML"
+          id="html"
+          min="0"
+          max="1.2"
+        />
+        <label for="css">CSS</label>
+        <input type="range" class="accent" name="CSS" min="0" max="3" />
+      </div>
+    </secton>
+    <div id="proj"></div>
+    <section class="projects">
+      <h2 id="hero-h2">Projects</h2>
+      <ul>
+        <li>
+          <div id="d2">
+            <img
+              src="images/Project/documintatin page.jpg"
+              alt="My Tribute page about jennie bp"
+            />
+            <h2>Documintation Page</h2>
+            <a
+              href="https://shogof.github.io/Technical-Documentation/"
+              rel="noopener"
+              target="_blank"
+              >Live</a
+            >
+            <a
+              href="https://github.com/shogof/Technical-Documentation"
+              rel="noopener"
+              target="_blank"
+              >Source</a
+            >
+          </div>
+        </li>
+        <li>
+          <div id="d3">
+            <img
+              src="images/Project/landing page.png"
+              alt="My Tribute page about jennie bp"
+            />
+            <h2>Landing Page</h2>
+            <a
+              href="https://shogof.github.io/Landing-page-project/"
+              rel="noopener"
+              target="_blank"
+              >Live</a
+            >
+            <a
+              href="https://github.com/shogof/Landing-page-project"
+              rel="noopener"
+              target="_blank"
+              >Source</a
+            >
+          </div>
+        </li>
+        <li>
+          <div id="d1">
+            <img
+              src="images/Project/fff.png "
+              alt="My Tribute page about jennie bp"
+            />
+            <h2>Jennie Tribute Page</h2>
+            <a
+              rel="noopener"
+              href="https://shogof.github.io/Tribute-Page/"
+              target="_blank"
+              >Live</a
+            >
+            <a
+              rel="noopener"
+              href="https://github.com/shogof/Tribute-Page"
+              target="_blank"
+              >Source</a
+            >
+          </div>
+        </li>
+      </ul>
+    </section>
+    <div id="contact"></div>
+    <section class="contact">
+      <h2>Contact Me</h2>
+      <p>
+        If you have an application you are interested in developing, a feature
+        that you need built or a project that needs coding. I'd love to help
+        with it!
+      </p>
+      <form action="">
+        <input type="text" name="name" placeholder="Full name" />
+        <input type="email" name="email" id="" placeholder="Email address" />
+        <textarea
+          name="massage"
+          id="text-area"
+          cols="30"
+          rows="8"
+          placeholder="Write your massage here"
+        ></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
